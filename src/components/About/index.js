@@ -3,7 +3,7 @@ import './index.scss'
 import { useState } from 'react'
 import { useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
+import { faPython, faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
 import React from 'react'
 import Loader from 'react-loaders'
 
@@ -32,25 +32,30 @@ export default function About() {
               />
             </h1>
             <p>
-              I'm a very ambitious front-end developer looking for a role in an
-              established IT company with the opportunity to work with the latest
-              technologies on challenging and diverse projects.
+              Highly motivated Python developer with a strong foundation in web
+              development (Django, HTML/CSS) and machine learning (Scikit-learn,
+              Keras). Proven ability to design, develop, and optimize backend
+              systems. Experienced in utilizing Git/Github for collaborative
+              development.
+              Looking for a role in an established IT company with the opportunity
+              to work with the latest technologies on challenging and diverse projects.
             </p>
             <p align="LEFT">
               I'm quiet confident, naturally curious, and perpetually working on
               improving my chops one design problem at a time.
             </p>
-            <p>
-              If I need to define myself in one sentence that would be a family
-              person, father of a beautiful daughter, a sports fanatic,
-              photography enthusiast, and tech-obsessed!!!
+            <p><h3 className='head'>Skills</h3>
+              <b>Languages</b> : Python, SQL, HTML, CSS, JavaScript(familiar)<br/>
+              <b>Libraries/Frameworks</b> : Numpy, Pandas, Scikit learn, Django, DRF, Keras, OpenCV, Bootstrap, React<br/>
+              <b>Tools</b> : Git/Github, Postman, Google Colab<br/>
+              <b>Databases</b> : MySQL, SQLite3
             </p>
           </div>
   
           <div className="stage-cube-cont">
             <div className="cubespinner">
               <div className="face1">
-                <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+                <FontAwesomeIcon icon={faPython} color="#FFD43B" />
               </div>
               <div className="face2">
                 <FontAwesomeIcon icon={faHtml5} color="#F06529" />

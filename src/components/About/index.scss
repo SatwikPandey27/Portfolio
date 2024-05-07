@@ -79,3 +79,18 @@
       transform: rotateX(90deg);
     }
   }
+
+  .head{
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    color: #ccc;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .stage-cube-cont{
+      .cubespinner{
+        display: none;
+      }
+    }
+  }

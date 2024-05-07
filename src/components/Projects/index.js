@@ -105,7 +105,7 @@ export default function Projects() {
             <div className='right-row'>
               <div className="left box">
                   <p>
-                    <Link to='https://github.com/SatwikPandey27/MNIST-Recognition'>
+                    <Link to='https://github.com/SatwikPandey27/Portfolio'>
                     <img
                       className="project-image"
                       src={logo}

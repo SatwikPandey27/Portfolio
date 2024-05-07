@@ -28,13 +28,13 @@ const Contact = () => {
       .sendForm(serviceId, templateId, form.current, publicKey)
       .then(
         (result) => {
-          alert('Message successfully sent!')
+          alert("Thanks for your message! I'll be in touch soon.")
           window.location.reload(false)
-          console.log('SUCCESS!', result.status, result.text);
+          // console.log('SUCCESS!', result.status, result.text);
         },
         (error) => {
           alert('Failed to send the message, please try again')
-          console.error('FAILED...', error);
+          // console.error('FAILED...', error);
         }
       )
   }
@@ -51,9 +51,9 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially on ambitious
-            or large projects. However, if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
+            I'm always interested in connecting with creative professionals and potential collaborators.
+            Whether you have a project opportunity, a question about my work, or simply an interest in exploring potential partnerships, feel free to get in touch.
+            I'm here to discuss new opportunities and hear your ideas.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -65,7 +65,7 @@ const Contact = () => {
                   <input
                     placeholder="Email"
                     type="email"
-                    name="email"
+                    name="from_email"
                     required
                   />
                 </li>

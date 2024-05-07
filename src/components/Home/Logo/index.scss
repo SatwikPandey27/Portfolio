@@ -35,3 +35,11 @@
     stroke: #ffd700;
     stroke-width: 10;
   }
+
+@media only screen and (max-width: 600px) {
+  .logo-container{
+    width: 240px;
+    left: 29%;
+    top: 30%;
+  }
+}
