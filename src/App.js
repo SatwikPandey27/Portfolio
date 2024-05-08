@@ -6,6 +6,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
+import Resume from './components/Resume';
 
 function App() {
   // const [mode, setMode] = useState('light'); // check whether dark mode is enabled or not
@@ -30,6 +31,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/projects' element={<Projects />} />
+        <Route path='/resume' element={<Resume />} />
         </Route>
       </Routes>
     </Router>
