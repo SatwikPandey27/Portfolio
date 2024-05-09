@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import React from 'react'
 import AnimatedLetters from '../Animated_Letters'
 import Vivus from 'vivus';
+import resume from '../../assets/Resume/SatwikPandeyResume.pdf'
 
 export default function Resume() {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -37,7 +38,7 @@ export default function Resume() {
                     </p>
                 </div>
                 <div>
-                    <a href="../../assets/Resume/SatwikPandeyResume.pdf" download='Satwik_Resume.pdf'>
+                    <a href={resume} download='Satwik_Resume.pdf'>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 512 512"
